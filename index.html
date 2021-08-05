@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>고양이에 대하여</title>
+<style>
+        body{
+            margin:0;
+        }
+        h1{
+            font-size: 40px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin:0;
+            padding: 20px;
+        }
+        h2{
+            padding-bottom: 20px;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        #grid ul{
+            font-size: 18px;
+            width: 180px;
+            height: 500px;
+            border-right: 1px solid gray;
+            margin:0;
+            padding: 20px;
+            padding-left:35px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 230px 1fr;
+        }
+        #article{
+            padding-left: 30px;
+            padding-right: 20px;
+        }
+        #grid li{
+             padding:3px;   
+        }
+    </style>
+</head>
+<body>
+<h1><a href="index.html">고양이에 대하여</a></h1>
+<div id="grid">
+    <ul>
+        <li><a href="1.html">고양이의 종류</a></li>
+        <li><a href="2.html">고양이의 특성</a></li>
+        <li><a href="3.html">고양이의 감정표현</a></li>
+    </ul>
+    <div id="article">
+        <h2>Home</h2>
+        <p><strong>"고양이가 세상을 지배한다!"</strong></p><p>도도하고 새침한 그 녀석! 반려동물로서 굉장한 사랑을 받는 고양이에 대해 알아보자.</p>
+    </div>
+</div>
+</body>
+</html>
